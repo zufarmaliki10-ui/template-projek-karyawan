@@ -1,0 +1,64 @@
+:root {
+  --average: "Average Sans";
+  --mulish: "Mulish";
+
+  --jungle-teal: #6b9080ff;
+  --muted-teal: #a4c3b2ff;
+  --frozen-water: #cce3deff;
+  --azure-mist: #eaf4f4ff;
+  --mint-cream: #f6fff8ff;
+}
+
+body {
+  font-family: var(--mulish);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+nav {
+  background-color: var(--jungle-teal);
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  color: whitesmoke;
+}
+
+/* Main Content */
+.card-profile{
+    width: 50%;
+    height: 20rem;
+    background-color: var(--frozen-water);
+    border: 3px solid var(--jungle-teal);
+    box-shadow: 5px 5px 10px grey;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  background-color: var(--frozen-water);
+}
+
+.chart-container {
+  position: relative;
+  height: 25rem;
+  width: 100%;
+}
+
+canvas {
+  height: 100% !important;
+  width: 100% !important;
+  max-height: 25rem;
+}
+
+/* Footer */
+body > footer{
+    margin-top: auto;
+}
+
+footer {
+  font-size: 10px;
+  background-color: var(--jungle-teal);
+  height: 15vh;
+}
