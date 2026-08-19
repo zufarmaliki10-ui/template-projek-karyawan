@@ -17,7 +17,7 @@ new Chart(ctx, {
     maintainAspectRatio: false,
     plugins: {
       legend: {
-        position: "top",
+        position: "right",
       },
       title: {
         display: true,
